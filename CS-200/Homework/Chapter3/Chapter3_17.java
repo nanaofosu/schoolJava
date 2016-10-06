@@ -30,14 +30,11 @@ public class Chapter3_17 {
             }
         }else if (cValue == 2) {
             if(uVaue == 0){
-                System.out.println("You chose rock. Computer chose scissors. You lose!");
+                System.out.println("You chose rock. Computer chose scissors. You win!");
             }
             else if (uVaue == 1){
-             System.out.println("You chose paper. CPU chaose scissors. You win.");
+             System.out.println("You chose paper. CPU chaose scissors. You lose.");
             }
         }
-
-
-
     }
 }

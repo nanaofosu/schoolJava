@@ -22,15 +22,12 @@ public class leapYear{
 
         System.out.print(year +" is a leap year");
         value = true;
-
-
     }
     else{
        System.out.print(year +" is not a leap year");
        value = false;
-
     }
     return value;
-      }
+  }
 
 }
